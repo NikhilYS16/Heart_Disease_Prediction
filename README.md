@@ -74,7 +74,7 @@ VI) Installation:
 
 Screenshots:
 ## Homepage
-![Homepage](https://via.placeholder.com/800x400?text=Screenshot+of+Homepage)
+![Homepage](app/Images/HomePage.png)
 
 ## Prediction Result
 ![Prediction Result](https://via.placeholder.com/800x400?text=Screenshot+of+Prediction+Result)
