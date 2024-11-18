@@ -41,41 +41,42 @@ VI) Installation:
 
                   OR
 
-1. Clone the Repository:
+   1. Clone the Repository:
    ```bash
    git clone https://github.com/NikhilYS16/heart-disease-prediction.git
    cd heart-disease-prediction
    ```
 
-2. Create a Virtual Environment:
+   2. Create a Virtual Environment:
    ```bash
    python -m venv venv
    # For mac: source venv/bin/activate
    # For Windows: venv\Scripts\activate
    ```
 
-3. Install Dependencies:
+   3. Install Dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Run the Application:
+   4. Run the Application:
    ```bash
    flask run
    ```
 
-5. Open your browser and visit `http://127.0.0.1:5000`.
+   5. Open your browser and visit `http://127.0.0.1:5000`.
 
-## Usage:
----------
-1. Input medical details like age, cholesterol level, and chest pain type in the provided form.
-2. Click the "Predict" button to get the result.
-3. The app will display whether the individual is likely to have heart disease.
+VII) Usage:
+   ---------
+   1. Input medical details like age, cholesterol level, and chest pain type in the provided form.
+   2. Click the "Predict" button to get the result.
+   3. The app will display whether the individual is likely to have heart disease.
 
-Screenshots:
-## Homepage
-![Homepage](app/Images/HomePage.png)
+VIII) Screenshots:
+   ---------------
+   ## Homepage
+   ![Homepage](app/Images/HomePage.png)
 
-## Prediction Result
-![Prediction Result](app/Images/PrdictionPage.png)
+   ## Prediction Result
+   ![Prediction Result](app/Images/PrdictionPage.png)
 
