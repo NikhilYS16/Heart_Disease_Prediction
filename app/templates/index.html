@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Heart Disease Prediction</h1>
+<form id="predictionForm">
+    <label>Age: <input type="number" name="age" required></label><br>
+    <label>Sex (0=Female, 1=Male): <input type="number" name="sex" required></label><br>
+    <label>Chest Pain Type (0-3): <input type="number" name="cp" required></label><br>
+    <label>Resting Blood Pressure: <input type="number" name="trestbps" required></label><br>
+    <label>Cholesterol: <input type="number" name="chol" required></label><br>
+    <label>Fasting Blood Sugar (0/1): <input type="number" name="fbs" required></label><br>
+    <label>Resting Electrocardiogram (0-2): <input type="number" name="restecg" required></label><br>
+    <label>Max Heart Rate Achieved: <input type="number" name="thalach" required></label><br>
+    <label>Exercise Induced Angina (0/1): <input type="number" name="exang" required></label><br>
+    <label>ST Depression: <input type="number" name="oldpeak" step="0.1" required></label><br>
+    <label>ST Slope (0-2): <input type="number" name="slope" required></label><br>
+    <label>Num Major Vessels (0-3): <input type="number" name="ca" required></label><br>
+    <label>Thalassemia (0-3): <input type="number" name="thal" required></label><br>
+    <button type="button" onclick="submitForm()">Predict</button>
+</form>
+<div id="result"></div>
+<!-- <script>
+    async function submitForm() {
+        const formData = new FormData(document.getElementById('predictionForm'));
+        const data = {};
+        formData.forEach((value, key) => data[key] = Number(value));
+        const response = await fetch('/predict', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data)
+        });
+        const result = await response.json();
+        document.getElementById('result').innerText = result.message;
+    }
+</script> -->
+{% endblock %}
