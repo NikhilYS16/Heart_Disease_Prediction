@@ -23,7 +23,7 @@ IV) Technologies Used:
 
 V) Dataset:
   -------
-The dataset used for training the model is from the [UCI Heart Disease Dataset](app/data/heart.csv). It includes 303 samples and 14 attributes (13 features and 1 target variable).
+The dataset used for training the model is from the [Heart Disease Dataset](app/data/heart.csv). It includes 303 samples and 14 attributes (13 features and 1 target variable).
 
 VI) Installation:
   -------------
