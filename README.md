@@ -77,5 +77,5 @@ Screenshots:
 ![Homepage](app/Images/HomePage.png)
 
 ## Prediction Result
-![Prediction Result](https://via.placeholder.com/800x400?text=Screenshot+of+Prediction+Result)
+![Prediction Result](app/Images/PrdictionPage.png)
 
